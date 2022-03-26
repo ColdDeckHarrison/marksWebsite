@@ -8,6 +8,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat-Bold";
 }
 
+.contactme {
+ color: #fff
+}
+
 p {
   color: #495371;
   font-family: "Montserrat-Light"
