@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  color: #8f8f8f;
+  color: #495371;
   font-family: "Montserrat-Light"
 }
 
@@ -401,6 +401,7 @@ header.masthead .post-heading .meta a {
 form .form-group:first-child .floating-label-form-group {
   border-top: 1px solid #dee2e6;
 }
+
 }
 
 

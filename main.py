@@ -5,10 +5,10 @@ import smtplib
 app = Flask(__name__)
 
 MY_EMAIL = "pythonautomail87@gmail.com"
-MY_PASSWORD = "marcel3325"
+MY_PASSWORD = "otsasee1234"
 
 
-@app.route('/m')
+@app.route('/')
 def run_app():
     return render_template("index.html")
 
@@ -31,7 +31,7 @@ def contact():
             connection.sendmail(
                 from_addr=MY_EMAIL,
                 to_addrs=MY_EMAIL,
-                msg=f"{name}:\n{email}\n\n{phone} \n {message}")
+                msg=f"Contact Me \n{name}\n{email}\n{phone}\n{message}")
     return render_template("contact.html")
 
 
