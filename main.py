@@ -17,6 +17,9 @@ def run_app():
 def countries():
     return render_template("countries.html")
 
+@app.route('/blog')
+def blog():
+    return render_template("blog.html")
 
 @app.route("/contact", methods=["GET", "POST"])
 def contact():
